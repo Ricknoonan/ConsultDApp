@@ -32,15 +32,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"reveal_num\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set_num\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/richi/Solidity/ConsultancyDApp/contracts/show_num.sol\":\"show_num\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/richi/Solidity/ConsultancyDApp/contracts/show_num.sol\":{\"keccak256\":\"0x6ed4aa387278347c8d31651f2f218d45263b4b5fcda45853ad880a37c8e968bc\",\"urls\":[\"bzz-raw://e2d383170032b74dcb27ccfdac2916c4a08eb1f93ab01b1a079b01c514082549\",\"dweb:/ipfs/QmaBLaT2fzied9XzZNStkujSAHuiyyiaUmwbqKG7uo34eo\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060c68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630da665a414603757806353cedc18146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea265627a7a72315820a1c3cb16df106d31e63021c26eefce3528adfb7dbc60ceae4cc5699d2e259b3364736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80630da665a414603757806353cedc18146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea265627a7a72315820a1c3cb16df106d31e63021c26eefce3528adfb7dbc60ceae4cc5699d2e259b3364736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"reveal_num\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set_num\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/richi/Solidity/ConsultancyDApp/ConsultancyDApp/contracts/show_num.sol\":\"show_num\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/richi/Solidity/ConsultancyDApp/ConsultancyDApp/contracts/show_num.sol\":{\"keccak256\":\"0x6ed4aa387278347c8d31651f2f218d45263b4b5fcda45853ad880a37c8e968bc\",\"urls\":[\"bzz-raw://e2d383170032b74dcb27ccfdac2916c4a08eb1f93ab01b1a079b01c514082549\",\"dweb:/ipfs/QmaBLaT2fzied9XzZNStkujSAHuiyyiaUmwbqKG7uo34eo\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060c68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630da665a414603757806353cedc18146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea265627a7a72315820b8ddef3f79249c66849eebf44c4b09a0436fb9ef6b1ce45d0e3d58332fbd10fe64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80630da665a414603757806353cedc18146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea265627a7a72315820b8ddef3f79249c66849eebf44c4b09a0436fb9ef6b1ce45d0e3d58332fbd10fe64736f6c63430005100032",
   "sourceMap": "28:169:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:169:1;;;;;;;",
   "deployedSourceMap": "28:169:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:169:1;;;;;;;;;;;;;;;;;;;;;;;;65:51;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;65:51:1;;;;;;;;;;;;;;;;;:::i;:::-;;121:73;;;:::i;:::-;;;;;;;;;;;;;;;;;;;65:51;110:1;104:3;:7;;;;65:51;:::o;121:73::-;165:4;186:3;;179:10;;121:73;:::o",
   "source": "pragma solidity ^0.5.16;\r\n\r\ncontract show_num\r\n{\r\n\tuint num;\r\n\r\n\tfunction set_num(uint x) public\r\n\t{\r\n\t\tnum = x;\r\n\t}\r\n\r\n\tfunction reveal_num () public view returns (uint) \r\n\t{\r\n\t\treturn num;\r\n\t}\r\n}",
-  "sourcePath": "C:/Users/richi/Solidity/ConsultancyDApp/contracts/show_num.sol",
+  "sourcePath": "C:/Users/richi/Solidity/ConsultancyDApp/ConsultancyDApp/contracts/show_num.sol",
   "ast": {
-    "absolutePath": "/C/Users/richi/Solidity/ConsultancyDApp/contracts/show_num.sol",
+    "absolutePath": "/C/Users/richi/Solidity/ConsultancyDApp/ConsultancyDApp/contracts/show_num.sol",
     "exportedSymbols": {
       "show_num": [
         55
@@ -292,7 +292,7 @@
     "src": "0:197:1"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/richi/Solidity/ConsultancyDApp/contracts/show_num.sol",
+    "absolutePath": "/C/Users/richi/Solidity/ConsultancyDApp/ConsultancyDApp/contracts/show_num.sol",
     "exportedSymbols": {
       "show_num": [
         55
@@ -551,12 +551,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xD78893637423C0694Dd56d25D396340084Ef81a5",
-      "transactionHash": "0x177bb832795f25476017969697c518a90229c1d209d7c7485a3a6b3206d9465d"
+      "address": "0x870C34a0C7E798a89F1910Bc86F9528bc0aDeAc6",
+      "transactionHash": "0x167283ffa5be622100299e3650c1193c8c4e88965d2f9183774cab271f360911"
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-12-29T22:13:37.371Z",
+  "updatedAt": "2021-02-14T16:08:46.035Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
